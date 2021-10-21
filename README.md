@@ -7,5 +7,10 @@ Example:
 Given the set: {1, 1, 1, 1, 1, 2, 2, 3} or  
 {5, 2, 3} --> 5 ones, 2 twos, 1 three Target = 7
 
-The parsing algorithm should move like this:  
+The parsing algorithm iterate like this:  
 
+![image](https://user-images.githubusercontent.com/64340009/138242779-90e0438b-7358-4a6c-8c80-c309584b7da5.png)
+
+Thus, this set will have 5 different different solutions.  
+Since there are multiple calls of essentially the same recursive call you will need to memoize it to significantly decrease  
+the time complexity
