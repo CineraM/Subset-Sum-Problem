@@ -14,3 +14,11 @@ The parsing algorithm iterate like this:
 Thus, this set will have 5 different different solutions.  
 Since there are multiple calls of essentially the same recursive call you will need to memoize it to significantly decrease  
 the time complexity
+
+
+Note( Input format )  
+7 3 5 2 1 --> The first parameter is the target sum, the second is the largest number in the set, the following are the contents of the set  
+numbers in the set based on the index:  5 2 1
+5 --> 5 ones  
+2 --> 2 two
+1 --> 1 three
