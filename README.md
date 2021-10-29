@@ -1,6 +1,6 @@
 # Subset-Sum-Problem
 DP c++ program that sucessfully implements SSP - USF Group Project  
-Succesfully implemented the algorithm, were parters in charge of memoizing it
+Implemented the naive algorithm, sketched the recursion tree, group members in charge of memoizing it
 The goal of the subset sum problem is to find all the possible subsets which sum equals to a target. 
 
 Example:  
